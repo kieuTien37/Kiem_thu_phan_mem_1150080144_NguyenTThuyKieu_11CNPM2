@@ -1,4 +1,4 @@
-# Môn học: KIỂM THỬ PHẦN MỀM
-# MSSV: 1150080144
-# Họ và tên: Nguyễn Thúy Kiều
-# Lớp: 11CNPM2
+Môn học: KIỂM THỬ PHẦN MỀM
+MSSV: 1150080144
+Họ và tên: Nguyễn Thúy Kiều
+Lớp: 11CNPM2
