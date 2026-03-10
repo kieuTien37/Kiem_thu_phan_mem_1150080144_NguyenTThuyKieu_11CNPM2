@@ -1,0 +1,19 @@
+package com.example.demo.repository;
+
+import com.example.demo.entity.KhachHang;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.Optional;
+
+@Repository
+public interface KhachHangRepository extends JpaRepository<KhachHang, String> {
+    
+    boolean existsByMaKhachHang(String maKhachHang);
+    
+    boolean existsByEmail(String email);
+    
+    Optional<KhachHang> findByMaKhachHang(String maKhachHang);
+    
+    Optional<KhachHang> findByEmail(String email);
+}
